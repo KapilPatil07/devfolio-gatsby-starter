@@ -8,14 +8,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `misc`,
+        name: `Misc`,
         path: `${__dirname}/src/images/misc`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `gallery`,
+        name: `Gallery`,
         path: `${__dirname}/src/images/gallery`,
       },
     },
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-landing`,
+        name: `Gatsby-starter-landing`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
